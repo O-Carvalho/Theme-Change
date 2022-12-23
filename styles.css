@@ -9,6 +9,24 @@
   --text-color: #121214;
 }
 
+#dark,
+:root:has(#dark:checked) {
+  --bg-color: #121214;
+  --text-color: white;
+}
+
+#green,
+:root:has(#green:checked) {
+  --bg-color: white;
+  --text-color: #08591f;
+}
+
+#blue,
+:root:has(#blue:checked) {
+  --bg-color: white;
+  --text-color: #081267;
+}
+
 body {
   font-family: sans-serif;
   background-color: var(--bg-color);
