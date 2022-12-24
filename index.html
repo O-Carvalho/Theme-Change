@@ -7,19 +7,33 @@
 
     <link rel="stylesheet" href="styles.css" />
 
-    <title>Document</title>
+    <title>Galeria</title>
+
+    <script>
+      document
+        .querySelectorAll("input[type='radio']")
+        .forEach(function (input) {
+          input.onclick = function () {
+            document.documentElement.classList.add(input.id);
+          };
+        });
+    </script>
   </head>
   <body>
     <article>
       <h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias
-          iusto laboriosam natus modi consectetur tempore mollitia nisi. Velit
-          ullam, ducimus veniam maxime minima voluptas incidunt dolor laudantium
-          repellendus porro.
-        </p>
+        <p>Selecione uma imagem com o mouse.</p>
       </h2>
     </article>
+
+    <section class="gallery">
+      <img src="./assets/windows-K47_kmiJJFs-unsplash.jpg" />
+      <img src="./assets/say-ZwnAW9dFAuI-unsplash.jpg" />
+      <img src="./assets/say-dhpiee8rkTo-unsplash.jpg" />
+      <img src="./assets/mailchimp-lsdA8QpWN_A-unsplash.jpg" />
+      <img src="./assets/josh-withers-k0ECW8A4wVU-unsplash.jpg" />
+      <img src="./assets/adrien-brun-p-E7-AZl8gA-unsplash.jpg" />
+    </section>
 
     <ul>
       <li>
