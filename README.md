@@ -4,9 +4,9 @@ Exercicio para compreender propriedades modernas do CSS e utilizar o seletor :ha
 <br><br>
 
 <div>
-<img src="./assets/banner_galeria.png" width="600" height ="350" >
+<img src="./assets/banner_galeria.png" width= 100% >
 <br><br>
-<img src="./assets/banner_mouse.png" width="600" height ="350">
+<img src="./assets/banner_mouse.png" width= 100% >
 <br><br>
 </div>
 </p>
